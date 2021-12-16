@@ -50,11 +50,14 @@ class Movies extends Component {
                     <option></option>
                     {movieDropdown}
                 </select>
+                <div className="movie-info-container">
                 <h1>
                  {selectedMovieObj?.title}
                 </h1>
                 <div>{selectedMovieObj?.release_date}</div>
                 <div>{selectedMovieObj?.description}</div>
+
+                </div>
                 
             </div>
         )

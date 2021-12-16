@@ -42,14 +42,15 @@
 
 .navbar a:hover{
   color: rgb(89, 136, 238);
-  transition: .6s;
+  transition: .3s;
 
 }
 
 .totoro-logo{
-  width: 100px;
-  height: 100px;
-  /* background-color: rgba(255, 255, 255, 0.5); */
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 .locations{
@@ -69,6 +70,7 @@
 .locations ul{
   height: 100vh;
   overflow: scroll;
+  list-style-type: none;
 }
 
 .location{
